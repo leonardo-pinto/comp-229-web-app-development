@@ -1,6 +1,9 @@
 var express = require("express");
 var router = express.Router();
 
+// Author: Leonardo Pinto
+// StudentID: 301299256
+
 /* GET home page. */
 router.get("/", function (_req, res, _next) {
   res.render("home", { title: "Home" });
