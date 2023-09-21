@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
   <body>
-    <%- include navbar.ejs %>
+    <%- include('partials/navbar.ejs') %>
     <h1><%= title %></h1>
     <div id="contact-wrapper">
       <a href="https://github.com/leonardo-pinto">
@@ -22,7 +22,7 @@
       <a href="mailto:leonardoan.pinto@gmail.com">
         <img id="email-icon" src="/images/email.png" alt="email icon" />
       </a>
-      <%- include footer.ejs %>
+      <%- include('partials/footer.ejs') %>
     </div>
   </body>
 </html>

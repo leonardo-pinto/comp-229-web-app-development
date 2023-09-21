@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
   <body>
-    <%- include navbar.ejs %>
+    <%- include('partials/navbar.ejs') %>
     <h1><%= title %></h1>
     <div id="about-wrapper">
       <img src="/images/leonardo.png" alt="Leonardo's picture" />
@@ -39,6 +39,6 @@
         </div>
       </div>
     </div>
-    <%- include footer.ejs %>
+    <%- include('partials/footer.ejs') %>
   </body>
 </html>

@@ -5,7 +5,8 @@ body {
   position: relative;
 }
 
-h1 {
+h1,
+h3 {
   text-align: center;
 }
 
@@ -112,4 +113,14 @@ a {
   margin: 20px auto;
   padding: 10px 15px;
   width: 75%;
+}
+
+#mission-title {
+  margin-top: 50px;
+}
+
+#my-mission {
+  line-height: 1.5rem;
+  margin: 50px auto;
+  width: 60%;
 }
